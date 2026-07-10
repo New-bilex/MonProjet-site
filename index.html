@@ -7,7 +7,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Catégories</title>
+    <title>Accueil</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -15,11 +15,17 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -104,76 +110,239 @@
         </div>
 
     </div>
-    <div class="container-fluid mt-5 pt-1 shadow-sm">
 
-        <div class="" style="margin-left: 8%;">
+    <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
 
-            <h2 class="fw-bold">MAQUILLAGE</h2>
+
+        <div class="carousel-indicators">
+
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active">
+
+            </button>
+
+            <button type="button" data-bs-slide-to="1" data-bs-target="#heroCarousel">
+
+            </button>
+
+            <button type="button" data-bs-slide-to="2" data-bs-target="#heroCarousel">
+
+            </button>
+
+            <button type="button" data-bs-slide-to="3" data-bs-target="#heroCarousel">
+
+            </button>
+
+        </div>
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+
+                <img src="banner.png" class="d-block w-100 hero-img" style="height: 540px;">
+
+                <div class="overlay"></div>
+
+                <div class="carousel-caption">
+
+                    <h5>UN PRINTEMPS</h5>
+
+                    <h1>ÉCLATANT</h1>
+
+                    <p>
+
+                        Découvrez notre nouvelle collection.
+
+                    </p>
+
+                    <a href="#" class="btn hero-btn rounded">
+
+                        DÉCOUVRIR
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="carousel-item">
+
+                <img src="banner2.png" class="d-block w-100 hero-img" style="height: 540px;">
+
+                <div class="overlay"></div>
+
+                <div class="carousel-caption">
+
+                    <h5>NOUVELLE</h5>
+
+                    <h1>COLLECTION</h1>
+
+                    <p>
+
+                        Les plus grandes marques.
+
+                    </p>
+
+                    <a href="#" class="btn hero-btn  rounded">
+
+                        ACHETER
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="carousel-item">
+
+                <img src="banner.png" class="d-block w-100 hero-img" style="height: 540px;">
+
+                <div class="overlay"></div>
+
+                <div class="carousel-caption">
+
+                    <h5>OFFRES</h5>
+
+                    <h1>EXCLUSIVES</h1>
+
+                    <p>
+
+                        Profitez des réductions.
+
+                    </p>
+
+                    <a href="#" class="btn hero-btn  rounded">
+
+                        EN PROFITER
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="carousel-item">
+
+                <img src="banner2.png" class="d-block w-100 hero-img" style="height: 540px;">
+
+                <div class="overlay"></div>
+
+                <div class="carousel-caption">
+
+                    <h5>RÉVÉLEZ</h5>
+
+                    <h1>VOTRE BEAUTÉ</h1>
+
+                    <p>
+
+                        Les meilleurs soins.
+
+                    </p>
+
+                    <a href="#" class="btn hero-btn  rounded">
+
+                        COMMANDER
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+
+            <span class="carousel-control-prev-icon"></span>
+
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+
+            <span class="carousel-control-next-icon"></span>
+
+        </button>
+
+    </div>
+
+    <div class="container py-5">
+
+        <div class="row justify-content-center text-center">
+
+            <div class="col-lg-3 col-md-6 mb-4">
+
+                <i class="bi bi-truck fs-1"></i>
+
+                <h5 class="fw-bold mt-3">
+                    Livraison offerte
+                </h5>
+
+                <p>
+                    À partir de 15 articles
+                </p>
+
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+
+                <i class="bi bi-gift fs-1"></i>
+
+                <h5 class="fw-bold mt-3">
+                    Échantillons offerts
+                </h5>
+
+                <p>
+                    Dès la commande
+                </p>
+
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+
+                <i class="bi bi-arrow-counterclockwise fs-1"></i>
+
+                <h5 class="fw-bold mt-3">
+                    Retour gratuit
+                </h5>
+
+                <p>
+                    Sous 3 jours
+                </p>
+
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+
+                <i class="bi bi-shield-lock fs-1"></i>
+
+                <h5 class="fw-bold mt-3">
+                    Paiement sécurisé
+                </h5>
+
+                <p>
+                    Bancaire • Mobile Money • Etc.
+                </p>
+
+            </div>
 
         </div>
 
     </div>
-    <section class="container py-5 pt-0">
+    <hr class="ligne">
+    <div class="container text-center my-5 mb-0">
 
-        <div class="row g-5 align-items-start">
+        <h2 class="categorie-title" style="font-family: Georgia, 'Times New Roman', Times, serif;">
+            NOS CATEGORIES
+        </h2>
 
-            <!-- Partie gauche -->
-
-            <div class="col-lg-3">
-
-                <div class="service-menu">
-
-                    <ul>
-
-                        <li><i class="bi bi-brush"></i> Maquillage du visage</li>
-
-                        <li><i class="bi bi-palette"></i> Fond de teint</li>
-
-                        <li><i class="bi bi-stars"></i> Rouge à lèvres</li>
-
-                        <li><i class="bi bi-eye"></i> Maquillage des yeux</li>
-
-                        <li><i class="bi bi-droplet"></i> Vernis à ongles</li>
-
-                        <li><i class="bi bi-gem"></i> Accessoires maquillage</li>
-
-                        <li><i class="bi bi-bag-heart"></i> Marques Premium</li>
-                    </ul>
-
-                </div>
-
-            </div>
-
-            <!-- Partie droite -->
-
-            <div class="col-lg-9">
-
-                <div class="video-box">
-
-                    <video controls autoplay muted loop>
-
-                        <source src="vidéo.mp4" type="video/mp4">
-
-                    </video>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <div class="" style="margin-left: 8%;">
-
-        <h4 class="fw-bold">Les Incontournables</h4>
+        <p class="categorie-subtitle">
+            Découvrez notre sélection de produits de beauté.
+        </p>
 
     </div>
 
     <section class="container py-5">
         <div class="row g-4">
-
-            <!-- Produit 1 -->
 
             <div class="col-6 col-md-4 col-lg-2">
 
@@ -225,8 +394,6 @@
                 </div>
 
             </div>
-
-            <!-- Produit 2 -->
 
             <div class="col-6 col-md-4 col-lg-2">
 
@@ -280,8 +447,6 @@
 
             </div>
 
-            <!-- Produit 3 -->
-
             <div class="col-6 col-md-4 col-lg-2">
 
                 <div class="product-card">
@@ -333,8 +498,6 @@
                 </div>
 
             </div>
-
-            <!-- Produit 4 -->
 
             <div class="col-6 col-md-4 col-lg-2">
 
@@ -388,8 +551,6 @@
 
             </div>
 
-            <!-- Produit 5 -->
-
             <div class="col-6 col-md-4 col-lg-2">
 
                 <div class="product-card">
@@ -441,8 +602,6 @@
                 </div>
 
             </div>
-
-            <!-- Produit 6 -->
 
             <div class="col-6 col-md-4 col-lg-2">
 
@@ -499,15 +658,19 @@
         </div>
 
     </section>
-    <div class="" style="margin-left: 8%;">
+    <div class="container text-center my-5 mb-0">
 
-        <h4 class="fw-bold">Nos Sous Catégories</h4>
+        <h2 class="categorie-title" style="font-family: Georgia, 'Times New Roman', Times, serif;">
+            NOS NOUVEAUTÉS
+        </h2>
+
+        <p class="categorie-subtitle">
+            Découvrez notre nouvelle sélection de produits de beauté.
+        </p>
 
     </div>
     <section class="container py-5">
         <div class="row g-4">
-
-            <!-- Produit 1 -->
 
             <div class="col-6 col-md-4 col-lg-2">
 
@@ -559,8 +722,6 @@
                 </div>
 
             </div>
-
-            <!-- Produit 2 -->
 
             <div class="col-6 col-md-4 col-lg-2">
 
@@ -614,8 +775,6 @@
 
             </div>
 
-            <!-- Produit 3 -->
-
             <div class="col-6 col-md-4 col-lg-2">
 
                 <div class="product-card">
@@ -667,8 +826,6 @@
                 </div>
 
             </div>
-
-            <!-- Produit 4 -->
 
             <div class="col-6 col-md-4 col-lg-2">
 
@@ -722,8 +879,6 @@
 
             </div>
 
-            <!-- Produit 5 -->
-
             <div class="col-6 col-md-4 col-lg-2">
 
                 <div class="product-card">
@@ -775,8 +930,6 @@
                 </div>
 
             </div>
-
-            <!-- Produit 6 -->
 
             <div class="col-6 col-md-4 col-lg-2">
 
@@ -839,8 +992,6 @@
 
             <div class="row gy-5">
 
-                <!-- Logo -->
-
                 <div class="col-lg-4 col-md-6">
 
                     <h2 class="logo-footer">
@@ -875,8 +1026,6 @@
 
                 </div>
 
-                <!-- Boutique -->
-
                 <div class="col-lg-2 col-md-6">
 
                     <h5>
@@ -901,8 +1050,6 @@
 
                 </div>
 
-                <!-- Informations -->
-
                 <div class="col-lg-2 col-md-6">
 
                     <h5>
@@ -926,8 +1073,6 @@
                     </ul>
 
                 </div>
-
-                <!-- Contact -->
 
                 <div class="col-lg-4 col-md-6">
 
@@ -958,8 +1103,7 @@
 
                         <i class="bi bi-telephone-fill"></i>
 
-                        <a href="tel:+237699999999" style="color: rgba(228, 233, 238, 0.897);">+237 6 99 99 99
-                            99</a>
+                        <a href="tel:+237699999999" style="color: rgba(228, 233, 238, 0.897);">+237 6 99 99 99 99</a>
 
                     </p>
 
@@ -1019,9 +1163,203 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <!-- Ton JavaScript -->
 
-    <script src="script.js">
+
+    <script>
+
+        const heroCarousel = document.querySelector("#heroCarousel");
+
+        const carousel = new bootstrap.Carousel(heroCarousel, {
+
+            interval: 2500,
+
+            ride: true,
+
+            pause: false,
+
+            wrap: true,
+
+            touch: true
+
+        });
+
+
+        heroCarousel.addEventListener("mouseenter", () => {
+
+            carousel.pause();
+
+        });
+
+        heroCarousel.addEventListener("mouseleave", () => {
+
+            carousel.cycle();
+
+        });
+
+        heroCarousel.addEventListener("slide.bs.carousel", function () {
+
+            const captions = document.querySelectorAll(".carousel-caption");
+
+            captions.forEach(caption => {
+
+                caption.classList.remove("show-text");
+
+            });
+
+        });
+
+        heroCarousel.addEventListener("slid.bs.carousel", function () {
+
+            const active = document.querySelector(".carousel-item.active .carousel-caption");
+
+            active.classList.add("show-text");
+
+        });
+
+
+        window.addEventListener("load", () => {
+
+            document.querySelector(".carousel-caption").classList.add("show-text");
+
+        });
+
+
+        window.addEventListener("scroll", () => {
+
+            const navbar = document.querySelector(".navbar");
+
+            if (window.scrollY > 50) {
+
+                navbar.classList.add("shadow-lg");
+
+                navbar.style.background = "#000";
+
+            }
+
+            else {
+
+                navbar.classList.remove("shadow-lg");
+
+            }
+
+        });
+
+
+        const cards = document.querySelectorAll(".product-card");
+
+        const observer = new IntersectionObserver((entries) => {
+
+            entries.forEach(entry => {
+
+                if (entry.isIntersecting) {
+
+                    entry.target.classList.add("show");
+
+                }
+
+            });
+
+        }, {
+            threshold: 0.2
+        });
+
+        cards.forEach(card => {
+
+            observer.observe(card);
+
+        });
+
+        const cartButtons = document.querySelectorAll(".product-bottom a");
+
+        cartButtons.forEach(cart => {
+
+            cart.addEventListener("click", (e) => {
+
+                e.preventDefault();
+
+                cart.classList.add("cart-click");
+
+                setTimeout(() => {
+
+                    cart.classList.remove("cart-click");
+
+                }, 400);
+
+            });
+
+        });
+
+
+        const buyButtons = document.querySelectorAll(".buy-btn");
+
+        buyButtons.forEach(button => {
+
+            button.addEventListener("click", (e) => {
+
+                e.preventDefault();
+
+                button.innerHTML = "✔ Ajouté";
+
+                button.style.background = "#198754";
+
+                setTimeout(() => {
+
+                    button.innerHTML = "Payer";
+
+                    button.style.background = "#000";
+
+                }, 1800);
+
+            });
+
+        });
+
+        const images = document.querySelectorAll(".product-image img");
+
+        images.forEach(img => {
+
+            img.addEventListener("mouseenter", () => {
+
+                img.style.transform = "scale(1.12)";
+
+            });
+
+            img.addEventListener("mouseleave", () => {
+
+                img.style.transform = "scale(1)";
+
+            });
+
+        });
+
+
+        buyButtons.forEach(button => {
+
+            button.addEventListener("click", function (e) {
+
+                let circle = document.createElement("span");
+
+                let x = e.offsetX;
+
+                let y = e.offsetY;
+
+                circle.style.left = x + "px";
+
+                circle.style.top = y + "px";
+
+                circle.classList.add("ripple");
+
+                this.appendChild(circle);
+
+                setTimeout(() => {
+
+                    circle.remove();
+
+                }, 600);
+
+            });
+
+        });
 
     </script>
 
